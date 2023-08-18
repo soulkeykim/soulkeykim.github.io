@@ -1,1 +1,456 @@
-
+[{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "bbc.iplayer.android",
+    "sha256_cert_fingerprints": [
+      "61:CE:AA:F1:D9:0A:AC:FA:DC:17:C0:96:1E:9E:FA:C2:AF:D6:B7:74:21:49:8A:6D:09:AC:D6:5D:7C:6F:24:69",
+      "3E:19:44:2D:BC:D5:2B:0C:62:F2:31:55:46:97:77:06:7C:BB:18:E7:C3:E6:4D:BE:69:83:5B:04:D0:6A:B8:BD",
+      "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E",
+      "74:1F:B1:31:89:42:3B:76:42:82:0D:74:77:CE:70:4B:B2:45:5D:F2:C8:E2:B3:72:4C:B1:B8:94:AF:C0:93:A1"
+    ]
+  }
+},{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.androiduniversallinks",
+    "sha256_cert_fingerprints":
+    ["F8:E5:99:48:ED:5B:F5:6C:5E:06:CD:1D:7D:A5:BC:B7:25:BA:89:DC:9B:80:F7:CB:0F:4D:A0:A9:D1:0D:44:B7"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.bbcsmartlock",
+    "sha256_cert_fingerprints":
+    ["78:7B:7A:A9:10:DF:06:B8:92:4B:99:1E:E4:E7:11:84:74:7C:F5:59:17:E4:73:D0:7C:A6:65:BF:70:EE:40:98"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],  
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.authtoolkit",
+    "sha256_cert_fingerprints": [
+      "F2:C8:46:88:86:1E:91:E1:12:FE:F9:BA:09:C9:6E:03:86:35:10:88:4D:FD:E3:C9:FA:F2:B6:D7:88:10:51:91",
+      "82:E2:43:E1:32:7A:72:24:24:B4:41:B5:A4:D5:58:28:D4:34:F0:04:D3:75:0B:01:4D:0F:B6:5E:87:E2:3F:57"
+    ]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],  
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.authtoolkit.sandbox",
+    "sha256_cert_fingerprints":
+    ["F2:C8:46:88:86:1E:91:E1:12:FE:F9:BA:09:C9:6E:03:86:35:10:88:4D:FD:E3:C9:FA:F2:B6:D7:88:10:51:91"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],  
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.onetapapp",
+    "sha256_cert_fingerprints":
+    ["82:E2:43:E1:32:7A:72:24:24:B4:41:B5:A4:D5:58:28:D4:34:F0:04:D3:75:0B:01:4D:0F:B6:5E:87:E2:3F:57"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://account.bbc.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.cbbcbuzz",
+    "sha256_cert_fingerprints":
+    ["61:CE:AA:F1:D9:0A:AC:FA:DC:17:C0:96:1E:9E:FA:C2:AF:D6:B7:74:21:49:8A:6D:09:AC:D6:5D:7C:6F:24:69",
+     "ED:BC:73:5C:2B:BB:40:46:5B:27:F4:4C:6A:7C:1D:FB:C6:DB:D5:C0:3E:F4:B4:F2:87:DA:26:1B:05:18:7D:FD",
+     "CC:C5:1E:0F:0F:17:3D:48:76:4B:E5:57:B1:0E:32:E0:B0:AA:3B:47:51:ED:A0:51:B9:12:1B:79:61:2D:12:49"
+    ]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.bitesize",
+    "sha256_cert_fingerprints":
+    ["61:CE:AA:F1:D9:0A:AC:FA:DC:17:C0:96:1E:9E:FA:C2:AF:D6:B7:74:21:49:8A:6D:09:AC:D6:5D:7C:6F:24:69",
+     "4B:19:A9:38:74:97:85:EF:91:05:43:93:B8:FE:23:9F:DB:B7:C0:A9:BF:69:00:36:99:36:E0:F3:5E:FA:9F:45"
+    ]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.bitesize.dev",
+    "sha256_cert_fingerprints":
+    ["5B:68:63:78:28:42:68:FF:A6:22:FE:3D:ED:AC:F0:27:ED:00:24:D5:30:2D:63:CD:8A:E5:B2:C5:F4:B6:D7:D0",
+     "A2:FD:9C:46:73:55:38:FC:23:F8:7C:45:3F:77:1E:16:CB:0B:27:8F:35:D4:22:EB:D2:BE:AF:86:AF:BD:B3:3B",
+     "4B:19:A9:38:74:97:85:EF:91:05:43:93:B8:FE:23:9F:DB:B7:C0:A9:BF:69:00:36:99:36:E0:F3:5E:FA:9F:45",
+     "C7:1B:D0:96:7F:E1:AD:DB:2B:1F:C4:FC:AF:13:8E:8C:D9:4F:A1:55:69:3F:5E:AE:62:40:C6:C9:35:5C:1C:E7"
+    ]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bbc.sounds",
+    "sha256_cert_fingerprints":
+    ["61:CE:AA:F1:D9:0A:AC:FA:DC:17:C0:96:1E:9E:FA:C2:AF:D6:B7:74:21:49:8A:6D:09:AC:D6:5D:7C:6F:24:69"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bbc.sounds.debug",
+    "sha256_cert_fingerprints":
+    ["3E:19:44:2D:BC:D5:2B:0C:62:F2:31:55:46:97:77:06:7C:BB:18:E7:C3:E6:4D:BE:69:83:5B:04:D0:6A:B8:BD"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bbc.sounds.buildly",
+    "sha256_cert_fingerprints":
+    ["3E:19:44:2D:BC:D5:2B:0C:62:F2:31:55:46:97:77:06:7C:BB:18:E7:C3:E6:4D:BE:69:83:5B:04:D0:6A:B8:BD"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bbc.sounds.rmsTest",
+    "sha256_cert_fingerprints":
+    ["3E:19:44:2D:BC:D5:2B:0C:62:F2:31:55:46:97:77:06:7C:BB:18:E7:C3:E6:4D:BE:69:83:5B:04:D0:6A:B8:BD"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bbc.sounds.spikelee",
+    "sha256_cert_fingerprints":
+    ["3E:19:44:2D:BC:D5:2B:0C:62:F2:31:55:46:97:77:06:7C:BB:18:E7:C3:E6:4D:BE:69:83:5B:04:D0:6A:B8:BD"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "bbc.news.mobile.cymru",
+    "sha256_cert_fingerprints":
+    ["DF:63:4C:1D:62:F5:9E:88:23:0A:CB:40:1E:E7:E4:FA:45:DB:AB:DA:80:F7:7B:3F:EF:E9:82:71:49:B3:F7:80",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.chrysalis",
+    "sha256_cert_fingerprints":
+    ["7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "bbc.mobile.news.uk",
+    "sha256_cert_fingerprints":
+    ["DF:63:4C:1D:62:F5:9E:88:23:0A:CB:40:1E:E7:E4:FA:45:DB:AB:DA:80:F7:7B:3F:EF:E9:82:71:49:B3:F7:80",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E",
+    "81:18:A1:34:C5:79:1B:5D:F7:E0:B3:C7:CE:4E:D9:E7:64:FD:75:C4:5A:7C:80:46:50:62:97:48:BC:71:6A:E3"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.mundo",
+    "sha256_cert_fingerprints":
+    ["94:D4:5D:2D:7B:6D:57:B5:55:6B:6F:A6:BA:B7:B7:95:74:A6:0C:5F:41:27:3B:85:6B:86:AA:4B:BB:D2:AB:23",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.russian",
+    "sha256_cert_fingerprints":
+    ["94:D4:5D:2D:7B:6D:57:B5:55:6B:6F:A6:BA:B7:B7:95:74:A6:0C:5F:41:27:3B:85:6B:86:AA:4B:BB:D2:AB:23",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.hindi",
+    "sha256_cert_fingerprints":
+    ["94:D4:5D:2D:7B:6D:57:B5:55:6B:6F:A6:BA:B7:B7:95:74:A6:0C:5F:41:27:3B:85:6B:86:AA:4B:BB:D2:AB:23",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.arabic",
+    "sha256_cert_fingerprints":
+    ["94:D4:5D:2D:7B:6D:57:B5:55:6B:6F:A6:BA:B7:B7:95:74:A6:0C:5F:41:27:3B:85:6B:86:AA:4B:BB:D2:AB:23",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.ww",
+    "sha256_cert_fingerprints":
+    ["FD:76:B3:B8:DF:5F:E8:FD:59:09:57:EB:0F:78:A9:96:96:7D:D3:C8:BD:87:AF:F4:1F:47:E7:79:9D:06:5D:C7",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "bbc.news.mobile.cymru.internal",
+    "sha256_cert_fingerprints":
+    ["DF:63:4C:1D:62:F5:9E:88:23:0A:CB:40:1E:E7:E4:FA:45:DB:AB:DA:80:F7:7B:3F:EF:E9:82:71:49:B3:F7:80",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "bbc.mobile.news.uk.internal",
+    "sha256_cert_fingerprints":
+    ["DF:63:4C:1D:62:F5:9E:88:23:0A:CB:40:1E:E7:E4:FA:45:DB:AB:DA:80:F7:7B:3F:EF:E9:82:71:49:B3:F7:80",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E",
+    "81:18:A1:34:C5:79:1B:5D:F7:E0:B3:C7:CE:4E:D9:E7:64:FD:75:C4:5A:7C:80:46:50:62:97:48:BC:71:6A:E3"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.mundo.internal",
+    "sha256_cert_fingerprints":
+    ["94:D4:5D:2D:7B:6D:57:B5:55:6B:6F:A6:BA:B7:B7:95:74:A6:0C:5F:41:27:3B:85:6B:86:AA:4B:BB:D2:AB:23",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.russian.internal",
+    "sha256_cert_fingerprints":
+    ["94:D4:5D:2D:7B:6D:57:B5:55:6B:6F:A6:BA:B7:B7:95:74:A6:0C:5F:41:27:3B:85:6B:86:AA:4B:BB:D2:AB:23",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.hindi.internal",
+    "sha256_cert_fingerprints":
+    ["94:D4:5D:2D:7B:6D:57:B5:55:6B:6F:A6:BA:B7:B7:95:74:A6:0C:5F:41:27:3B:85:6B:86:AA:4B:BB:D2:AB:23",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.arabic.internal",
+    "sha256_cert_fingerprints":
+    ["94:D4:5D:2D:7B:6D:57:B5:55:6B:6F:A6:BA:B7:B7:95:74:A6:0C:5F:41:27:3B:85:6B:86:AA:4B:BB:D2:AB:23",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.ww.internal",
+    "sha256_cert_fingerprints":
+    ["FD:76:B3:B8:DF:5F:E8:FD:59:09:57:EB:0F:78:A9:96:96:7D:D3:C8:BD:87:AF:F4:1F:47:E7:79:9D:06:5D:C7",
+    "7B:5E:10:7F:B4:C6:BA:C1:D0:D4:25:E2:2C:B6:8C:33:04:73:12:E8:8C:BC:7A:28:48:3B:AE:C5:F9:8F:86:4E"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "bbc.mobile.weather",
+    "sha256_cert_fingerprints":
+    ["61:CE:AA:F1:D9:0A:AC:FA:DC:17:C0:96:1E:9E:FA:C2:AF:D6:B7:74:21:49:8A:6D:09:AC:D6:5D:7C:6F:24:69",
+    "A2:FD:9C:46:73:55:38:FC:23:F8:7C:45:3F:77:1E:16:CB:0B:27:8F:35:D4:22:EB:D2:BE:AF:86:AF:BD:B3:3B",
+    "A5:A5:4D:FE:01:5B:38:4A:00:A9:49:5F:B8:D8:0E:72:48:DF:16:4C:77:97:2A:90:7F:61:1D:18:75:A3:5A:5D"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.android.sportdomestic",
+    "sha256_cert_fingerprints":
+    ["DF:B0:48:79:E7:6A:F5:44:A0:33:C0:27:49:CF:B7:BC:C5:13:89:F8:10:6B:97:B8:E4:15:3B:59:3A:52:33:55",
+      "CC:C6:B8:BD:16:95:37:9E:A1:69:23:93:6A:20:E9:31:73:65:41:65:9E:06:2F:BB:EF:43:CF:DA:AB:DB:16:F7",
+      "A2:FD:9C:46:73:55:38:FC:23:F8:7C:45:3F:77:1E:16:CB:0B:27:8F:35:D4:22:EB:D2:BE:AF:86:AF:BD:B3:3B"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.android.sportdomestic.debug",
+    "sha256_cert_fingerprints":
+    ["FE:57:78:60:30:8F:A7:1A:98:94:9A:A7:1A:B2:9D:3D:C8:46:89:42:AF:C3:2C:C4:E1:4E:C4:1F:CA:02:AA:87"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "bbc.mobile.sport.ww",
+    "sha256_cert_fingerprints":
+    ["F9:07:EE:1F:EB:BF:17:78:B0:05:A0:9B:92:BF:AB:4E:11:7C:1C:7B:F3:2B:2A:71:10:9C:C3:CD:9F:31:1A:01",
+      "43:F7:A1:2E:F5:21:23:03:77:BC:9F:1A:D3:26:4B:C0:F5:C3:5B:DA:37:51:93:FE:1F:EE:8A:D7:87:B5:2D:A6"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "bbc.mobile.sport.ww.debug",
+    "sha256_cert_fingerprints":
+    ["FE:57:78:60:30:8F:A7:1A:98:94:9A:A7:1A:B2:9D:3D:C8:46:89:42:AF:C3:2C:C4:E1:4E:C4:1F:CA:02:AA:87"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "bbcx_test_app",
+    "package_name": "com.bbc.bbcx.test",
+    "sha256_cert_fingerprints":
+    ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9"]
+  }
+},
+{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",
+    "delegate_permission/common.get_login_creds"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "uk.co.bbc.android.mytopics",
+    "sha256_cert_fingerprints":
+    ["AE:67:EE:4F:74:B3:7E:18:55:14:A9:4B:34:E9:B3:A1:A7:7F:A7:E6:73:BA:A4:F0:11:DE:9E:72:DB:D8:6B:23"]
+  }
+}]
